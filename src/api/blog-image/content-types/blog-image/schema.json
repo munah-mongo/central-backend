@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_images",
+  "info": {
+    "singularName": "blog-image",
+    "pluralName": "blog-images",
+    "displayName": "Blog-Images",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "alttext": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "image_link": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
